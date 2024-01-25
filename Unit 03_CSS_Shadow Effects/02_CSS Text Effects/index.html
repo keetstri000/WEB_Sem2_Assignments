@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+p.test1 {
+    white-space: nowrap; 
+    width: 200px; 
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: clip;
+  }
+  
+p.test2 {
+    white-space: nowrap; 
+    width: 200px; 
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }</style>
+<body>
+    
+    <h1>clip</h1>
+    <p class="test1">amazingamazingamazingamazingamazingamazingamazingamazingamazingamazingamazingamazingamazingamazing</p>
+
+    <h2>ellipsis</h2>
+    <p class="test2">amazingamazingamazingamazingamazingamazingamazingamazingamazingamazingamazingamazingamazingamazing</p>
+</body>
+</html>
