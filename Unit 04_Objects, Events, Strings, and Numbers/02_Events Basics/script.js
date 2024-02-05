@@ -1,5 +1,5 @@
 function mouseOverHandler() {
-    document.getElementById("demo").innerHTML = "Hello Again"
+    document.getElementById("demo").innerHTML = "Hello Again;"
 }
 
 function mouseOutHandler() {
@@ -9,10 +9,10 @@ function mouseOutHandler() {
 function keyDownHandler() {
     let x = 5
     let y = x + 7
-    document.getElementById("demo").innerHTML = y
+    document.getElementById("memo").innerHTML = y;
     
 }
 
 function keyUpHandler() {
-    document.getElementById("kitties").hidden = true;
+    document.getElementById("greg").hidden = true;
 }
