@@ -32,16 +32,10 @@ function drawLine() {
 
     const canvas = document.getElementById("myCanvas2");
     const ctx = canvas.getContext("2d");
-
-    // Define a new Path:
     ctx.beginPath();
-
-    // Define a start Point
     ctx.moveTo(startX, startY);
-
-    // Define an end Point
+    ctx.lineTo(endX, startY);
     ctx.lineTo(endX, endY);
-
     // Stroke it (Do the Drawing)
     ctx.stroke();
 }
