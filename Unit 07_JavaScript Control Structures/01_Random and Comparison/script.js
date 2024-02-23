@@ -9,6 +9,14 @@ function Roll() {
         diceElement.src = "images/dice1.jpg";
     } else if (random === 2) {
         diceElement.src = "images/dice2.jpg";
+    } else if (random === 3) {
+        diceElement.src = "images/dice3.jpg";
+    } else if (random === 4) {
+        diceElement.src = "images/dice2.jpg";
+    } else if (random === 5) {
+        diceElement.src = "images/dice2.jpg";
+    } else if (random === 2) {
+        diceElement.src = "images/dice2.jpg";
     }
     //TODO:  YOU do 3 to 6
 }
